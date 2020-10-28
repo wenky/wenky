@@ -8,7 +8,7 @@ interface Food {
 @Component({
   selector: "dropdown",
   templateUrl: "./dropdown.component.html",
-  styleUrls: ["./dropdown.component.css"]
+  styleUrls: ["./dropdown.component.scss"]
 })
 export class DropDownComponent {
   foods: Food[] = [
