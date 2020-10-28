@@ -1,3 +1,6 @@
-.custom-select .mat-select-arrow {
-  display: "none" !important;
+.custom-select .mat-select-arrow,
+.custom-select .mat-select-arrow-wrapper .mat-select-arrow {
+  display: none !important;
+  color: red !important;
+  background-color: blue !important;
 }
